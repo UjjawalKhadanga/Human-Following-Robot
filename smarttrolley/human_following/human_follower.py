@@ -52,8 +52,8 @@ GPIO.setmode(GPIO.BCM)  # choose BCM numbering scheme
 GPIO.setup(20, GPIO.OUT)# set GPIO 20 as output pin
 GPIO.setup(21, GPIO.OUT)# set GPIO 21 as output pin
       
-pin20 = GPIO.PWM(20, 100)    # create object pin20 for PWM on port 20 at 100 Hertz  
-pin21 = GPIO.PWM(21, 100)    # create object pin21 for PWM on port 21 at 100 Hertz  
+pin20 = GPIO.PWM(38, 100)    # create object pin20 for PWM on port 20 at 100 Hertz  
+pin21 = GPIO.PWM(40, 100)    # create object pin21 for PWM on port 21 at 100 Hertz  
 
 val=100
 pin20.start(val)              # start pin20 on 0 percent duty cycle (off)  
