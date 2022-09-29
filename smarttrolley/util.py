@@ -5,10 +5,10 @@ import os, time
 
 edgetpu=0 # If Coral USB Accelerator connected, then make it '1' otherwise '0'
 
-m1_1 = 8
-m1_2 = 11
-m2_1 = 14 
-m2_2 = 15 
+m1_1 = 0 #8
+m1_2 = 2 #11
+m2_1 = 15 #14 
+m2_2 = 16 #15 
 cam_light = 17
 headlight_right = 18
 headlight_left = 27 
